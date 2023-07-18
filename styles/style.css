@@ -19,11 +19,15 @@
 }
 body{
     max-width: 1366px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
+
+
 /* header styles */
+
+
 .container{
-    padding: 0 100px;
+    padding: 10px 100px;
     background-color: var(--white);
 }
 .container .header-title{
@@ -83,7 +87,10 @@ nav ul{
     height: 24px;
 }
 
+
 /* banner section styles */
+
+
 .banner-container{
     display: flex;
     padding: 0 100px;
@@ -152,7 +159,66 @@ nav ul{
 }
 
 /* we are gamers section styles */
+.we-are-gamers{
+    padding: 100px 0px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
 .wa-gamers{
     display: flex;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 0 100px;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wag-content {
+    margin-top: 50px;
+    text-align: right;
+    width: 60%;
+}
+
+.wag-content .wag-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wag-content .wag-desc{
+    margin-top: 20px;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.our-purpose{
+    color: #534C64;
+    font-size: 1rpm;
+    font-weight: 500;
+}
+.wag-everyone{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.wag-image img{
+    width: 100%;
+    height: auto;
+    position: top left, bottom right;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+.btn-know-more{
+    padding: 15px 35px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
 }

@@ -22,9 +22,54 @@
         height: auto;
         /* position: centre; */
     }
-    .banner-contents{
-        text-align: justify;
-        padding: 0 50px;
-        margin:50px 0;
+    .banner-content{
+        margin:50px 10px;
     }
+
+    /* we are gamers responsive */
+    .we-are-gamers{
+        padding: 0px;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    }
+    .wa-gamers{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    
+    .wag-content {
+        /* margin-top: 40px; */
+        text-align: center;
+        width: 100%;
+    }
+    .wag-content .wag-title{
+        margin-top: ;
+    }
+    .wag-content .wag-desc{
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    .wag-content .wag-everyone{
+        margin-top: 50px;
+    }
+    .wag-image img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        margin-top: 30px;
+    }
+    .btn-know-more{
+        padding: 15px 35px;
+        margin-top: 20px;
+        border-radius: 30px;
+        border: none;
+        border-radius: 48px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        color: var(--white);
+        font-size: 1.25rem;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
 }
