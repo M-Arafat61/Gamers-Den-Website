@@ -71,7 +71,7 @@
     /* Online Games Funny Videos responsive*/
     .games-videos-section{
         padding: 0px;
-        margin: 150px auto;
+        margin: 150px auto 0px;
     }
     .games-card{
         display: grid;
@@ -110,8 +110,126 @@
     .games-card .card .card-desc{
         text-align: center;
     }
-    /* .og-fvideos-title{
-        padding: 0px;
-        font-weight: 400;
-    } */
+
+     /* Play Games Online
+    anywhere, Anytime! styles */
+    
+    .games-anywhere{
+        padding: 0;
+        margin: 0;
+    }
+    .games-anywhere-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .ga-image-container{
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .ga-image-container .image1{
+        width: 80%;
+        height: auto;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        object-fit: cover;
+    }
+    .ga-image-container .image2{
+        position: absolute;
+        width: 170px;
+        height: 150px;
+        top: 200px;
+        left: 250px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .ga-contents-container{
+        text-align: center;
+    }
+
+
+    /* games type section */
+    .game-types-section{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .game-types-container1 ul{
+        justify-content: center;
+    }
+    .game-types-container1 li {
+        flex: 1 0 33.33%;
+        /* max-width: 20%; */
+        list-style: none;
+        text-decoration: none;
+        gap: 5px;
+    }
+    .button {
+        font-size: .8rem;
+        font-weight: 500;
+    }
+    .button-wrapper img {
+        width: 50%; 
+    }
+    
+   
+/* footer section */
+    .footer-section{
+        padding: 100px 0;
+        margin: 0;
+    }
+    .menu-2{
+        text-align: center;
+        margin-bottom: 40px;
+
+    }
+    .menu-2 ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        
+        margin: 0;
+    }
+    .menu-2 ul li{
+        flex: 0 0 33.33%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .social-icons ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social-icons li{
+        flex: 0 0 33.33%; 
+        text-align: center;
+    }
+    .terms-policy{
+        text-align: center;
+    }
+    .terms-policy ul{
+        list-style: none;
+        display: flex;
+        gap: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 ;
+        margin: 0;
+    }
+    .terms-policy li{
+        flex: 0 50%; 
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+        padding: 0 70px;
+    }
 }
